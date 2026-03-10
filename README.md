@@ -2,6 +2,14 @@
 
 AI 驱动的断食追踪 & 减肥助手，支持 iPhone + Apple Watch + 表盘组件。
 
+## 截图
+
+<p align="center">
+  <img src="screenshots/iphone_home.png" width="260" alt="iPhone 首页 — 断食倒计时、热量环、饮水体重">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/watch_app.png" width="180" alt="Apple Watch — 断食进度环与剩余热量">
+</p>
+
 ## 功能
 
 - 🍽️ **断食计划管理** — 16:8 等多种断食模式
