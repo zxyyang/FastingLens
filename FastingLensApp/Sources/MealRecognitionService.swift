@@ -66,6 +66,16 @@ struct OpenAIChatRequest: Encodable {
 }
 
 struct MealRecognitionService {
+
+    private var isAnthropicEndpoint: Bool {
+        false // determined per-call
+    }
+
+    private func resolveIsAnthropic(_ provider: ProviderConfig) -> Bool {
+        provider.headers.keys.contains(where: { $0.caseInsensitiveCompare("anthropic-version") == .orderedSame }) ||
+        provider.endpoint.path.lowercased().contains("/messages")
+    }
+
     func recognize(imageData: Data, provider: ProviderConfig) async throws -> MealRecognitionResult {
         guard provider.method == .post else {
             throw MealRecognitionServiceError.unsupportedMethod
@@ -94,7 +104,27 @@ struct MealRecognitionService {
                 imageBase64: base64,
                 imageDataURL: dataURL
             )
+        } else if resolveIsAnthropic(provider) {
+            // Anthropic Messages API format
+            let body: [String: Any] = [
+                "model": provider.request.model,
+                "max_tokens": 2048,
+                "system": provider.request.systemPrompt,
+                "messages": [[
+                    "role": "user",
+                    "content": [
+                        ["type": "text", "text": provider.request.userTemplate],
+                        ["type": "image", "source": [
+                            "type": "base64",
+                            "media_type": "image/jpeg",
+                            "data": base64
+                        ]]
+                    ]
+                ]]
+            ]
+            request.httpBody = try JSONSerialization.data(withJSONObject: body)
         } else {
+            // OpenAI compatible format
             let body = OpenAIChatRequest(
                 model: provider.request.model,
                 temperature: provider.request.temperature,
