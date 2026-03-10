@@ -1,0 +1,12 @@
+{
+  "/Users/flipos/OtherProject/FastingLens/AppFeatures/Sources/AppFeatures/AISettingsDraft.swift" : {
+    "abi-baseline-json" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-watchos/AppFeatures.build/Objects-normal/arm64/AppFeatures.abi.json",
+    "const-values" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-watchos/AppFeatures.build/Objects-normal/arm64/AppFeatures-primary.swiftconstvalues",
+    "dependencies" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-watchos/AppFeatures.build/Objects-normal/arm64/AppFeatures-primary.d",
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-watchos/AppFeatures.build/Objects-normal/arm64/AppFeatures-primary.dia",
+    "objc-header" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-watchos/AppFeatures.build/Objects-normal/arm64/AppFeatures-Swift.h",
+    "swiftdoc" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-watchos/AppFeatures.build/Objects-normal/arm64/AppFeatures.swiftdoc",
+    "swiftmodule" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-watchos/AppFeatures.build/Objects-normal/arm64/AppFeatures.swiftmodule",
+    "swiftsourceinfo" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-watchos/AppFeatures.build/Objects-normal/arm64/AppFeatures.swiftsourceinfo"
+  }
+}

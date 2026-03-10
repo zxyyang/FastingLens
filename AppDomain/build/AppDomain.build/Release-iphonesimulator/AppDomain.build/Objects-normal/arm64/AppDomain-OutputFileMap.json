@@ -1,0 +1,21 @@
+{
+  "" : {
+    "const-values" : "/Users/flipos/OtherProject/FastingLens/AppDomain/build/AppDomain.build/Release-iphonesimulator/AppDomain.build/Objects-normal/arm64/AppDomain-primary.swiftconstvalues",
+    "dependencies" : "/Users/flipos/OtherProject/FastingLens/AppDomain/build/AppDomain.build/Release-iphonesimulator/AppDomain.build/Objects-normal/arm64/AppDomain-primary.d",
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/AppDomain/build/AppDomain.build/Release-iphonesimulator/AppDomain.build/Objects-normal/arm64/AppDomain-primary.dia",
+    "emit-module-dependencies" : "/Users/flipos/OtherProject/FastingLens/AppDomain/build/AppDomain.build/Release-iphonesimulator/AppDomain.build/Objects-normal/arm64/AppDomain-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/flipos/OtherProject/FastingLens/AppDomain/build/AppDomain.build/Release-iphonesimulator/AppDomain.build/Objects-normal/arm64/AppDomain-primary-emit-module.dia",
+    "pch" : "/Users/flipos/OtherProject/FastingLens/AppDomain/build/AppDomain.build/Release-iphonesimulator/AppDomain.build/Objects-normal/arm64/AppDomain-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/AppDomain/build/AppDomain.build/Release-iphonesimulator/AppDomain.build/Objects-normal/arm64/AppDomain-primary.swiftdeps"
+  },
+  "/Users/flipos/OtherProject/FastingLens/AppDomain/Sources/AppDomain/AIProviderConfig.swift" : {
+    "index-unit-output-path" : "/AppDomain.build/Release-iphonesimulator/AppDomain.build/Objects-normal/arm64/AIProviderConfig.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/AppDomain/build/AppDomain.build/Release-iphonesimulator/AppDomain.build/Objects-normal/arm64/AIProviderConfig.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/AppDomain/build/AppDomain.build/Release-iphonesimulator/AppDomain.build/Objects-normal/arm64/AIProviderConfig.o"
+  },
+  "/Users/flipos/OtherProject/FastingLens/AppDomain/Sources/AppDomain/Models.swift" : {
+    "index-unit-output-path" : "/AppDomain.build/Release-iphonesimulator/AppDomain.build/Objects-normal/arm64/Models.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/AppDomain/build/AppDomain.build/Release-iphonesimulator/AppDomain.build/Objects-normal/arm64/Models.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/AppDomain/build/AppDomain.build/Release-iphonesimulator/AppDomain.build/Objects-normal/arm64/Models.o"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "" : {
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingLens-primary.dia",
+    "emit-module-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingLens-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingLens-primary-emit-module.dia",
+    "pch" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingLens-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingLens-primary.swiftdeps"
+  },
+  "/Users/flipos/OtherProject/FastingLens/FastingLensApp/Sources/AppState.swift" : {
+    "const-values" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/AppState.swiftconstvalues",
+    "dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/AppState.d",
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/AppState.dia",
+    "index-unit-output-path" : "/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/AppState.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/AppState.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/AppState.o",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/AppState.swiftdeps",
+    "swiftmodule" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/AppState~partial.swiftmodule"
+  },
+  "/Users/flipos/OtherProject/FastingLens/FastingLensApp/Sources/CameraPicker.swift" : {
+    "const-values" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/CameraPicker.swiftconstvalues",
+    "dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/CameraPicker.d",
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/CameraPicker.dia",
+    "index-unit-output-path" : "/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/CameraPicker.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/CameraPicker.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/CameraPicker.o",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/CameraPicker.swiftdeps",
+    "swiftmodule" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/CameraPicker~partial.swiftmodule"
+  },
+  "/Users/flipos/OtherProject/FastingLens/FastingLensApp/Sources/FastingLensApp.swift" : {
+    "const-values" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingLensApp.swiftconstvalues",
+    "dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingLensApp.d",
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingLensApp.dia",
+    "index-unit-output-path" : "/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingLensApp.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingLensApp.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingLensApp.o",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingLensApp.swiftdeps",
+    "swiftmodule" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingLensApp~partial.swiftmodule"
+  },
+  "/Users/flipos/OtherProject/FastingLens/FastingLensApp/Sources/FastingTimerEngine.swift" : {
+    "const-values" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingTimerEngine.swiftconstvalues",
+    "dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingTimerEngine.d",
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingTimerEngine.dia",
+    "index-unit-output-path" : "/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingTimerEngine.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingTimerEngine.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingTimerEngine.o",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingTimerEngine.swiftdeps",
+    "swiftmodule" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/FastingTimerEngine~partial.swiftmodule"
+  },
+  "/Users/flipos/OtherProject/FastingLens/FastingLensApp/Sources/MealRecognitionService.swift" : {
+    "const-values" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/MealRecognitionService.swiftconstvalues",
+    "dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/MealRecognitionService.d",
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/MealRecognitionService.dia",
+    "index-unit-output-path" : "/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/MealRecognitionService.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/MealRecognitionService.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/MealRecognitionService.o",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/MealRecognitionService.swiftdeps",
+    "swiftmodule" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/MealRecognitionService~partial.swiftmodule"
+  },
+  "/Users/flipos/OtherProject/FastingLens/FastingLensApp/Sources/Screens.swift" : {
+    "const-values" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/Screens.swiftconstvalues",
+    "dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/Screens.d",
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/Screens.dia",
+    "index-unit-output-path" : "/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/Screens.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/Screens.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/Screens.o",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/Screens.swiftdeps",
+    "swiftmodule" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLens.build/Objects-normal/x86_64/Screens~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,17 @@
+Target dependency graph (8 targets)
+Target 'FastingLens' in project 'FastingLens'
+➜ Explicit dependency on target 'FastingLensWatchApp' in project 'FastingLens'
+➜ Explicit dependency on target 'FastingLensWidget' in project 'FastingLens'
+➜ Explicit dependency on target 'AppFeatures' in project 'AppFeatures'
+Target 'FastingLensWidget' in project 'FastingLens'
+➜ Explicit dependency on target 'AppFeatures' in project 'AppFeatures'
+Target 'AppFeatures' in project 'AppFeatures'
+➜ Explicit dependency on target 'AppFeatures' in project 'AppFeatures'
+Target 'AppFeatures' in project 'AppFeatures' (no dependencies)
+Target 'FastingLensWatchApp' in project 'FastingLens'
+➜ Explicit dependency on target 'FastingLensWatchExtension' in project 'FastingLens'
+Target 'FastingLensWatchExtension' in project 'FastingLens'
+➜ Explicit dependency on target 'AppFeatures' in project 'AppFeatures'
+Target 'AppFeatures' in project 'AppFeatures'
+➜ Explicit dependency on target 'AppFeatures' in project 'AppFeatures'
+Target 'AppFeatures' in project 'AppFeatures' (no dependencies)

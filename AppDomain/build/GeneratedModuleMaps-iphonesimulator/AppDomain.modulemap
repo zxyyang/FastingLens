@@ -1,0 +1,4 @@
+module AppDomain {
+header "AppDomain-Swift.h"
+export *
+}

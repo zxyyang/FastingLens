@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLensWatchExtension.build/Objects-normal/arm64/FastingLensWatchExtension-primary.dia",
+    "emit-module-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLensWatchExtension.build/Objects-normal/arm64/FastingLensWatchExtension-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLensWatchExtension.build/Objects-normal/arm64/FastingLensWatchExtension-primary-emit-module.dia",
+    "pch" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLensWatchExtension.build/Objects-normal/arm64/FastingLensWatchExtension-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLensWatchExtension.build/Objects-normal/arm64/FastingLensWatchExtension-primary.swiftdeps"
+  },
+  "/Users/flipos/OtherProject/FastingLens/FastingLensWatchExtension/Sources/FastingLensWatchApp.swift" : {
+    "const-values" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLensWatchExtension.build/Objects-normal/arm64/FastingLensWatchApp.swiftconstvalues",
+    "dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLensWatchExtension.build/Objects-normal/arm64/FastingLensWatchApp.d",
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLensWatchExtension.build/Objects-normal/arm64/FastingLensWatchApp.dia",
+    "index-unit-output-path" : "/FastingLens.build/Debug-iphonesimulator/FastingLensWatchExtension.build/Objects-normal/arm64/FastingLensWatchApp.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLensWatchExtension.build/Objects-normal/arm64/FastingLensWatchApp.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLensWatchExtension.build/Objects-normal/arm64/FastingLensWatchApp.o",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLensWatchExtension.build/Objects-normal/arm64/FastingLensWatchApp.swiftdeps",
+    "swiftmodule" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-iphonesimulator/FastingLensWatchExtension.build/Objects-normal/arm64/FastingLensWatchApp~partial.swiftmodule"
+  }
+}

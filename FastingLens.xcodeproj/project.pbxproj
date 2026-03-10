@@ -1,0 +1,934 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0279B5CB222F70BBB4668A3A /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CB3A85E4783003B0F76B7 /* Screens.swift */; };
+		056AC5E28B4F612A9C878A97 /* FastingTimerEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53FD982ACF681464C89E6B6 /* FastingTimerEngine.swift */; };
+		0A6AFA5EB43D0C209E26323A /* AppFeatures in Frameworks */ = {isa = PBXBuildFile; productRef = 6B1354128C32584F0B233F7C /* AppFeatures */; };
+		14AAA16D0BA8CE5710468F76 /* FastingLensWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87733E6F1D960232D7308E3 /* FastingLensWidget.swift */; };
+		26C00120302D2BFB80EDFDD4 /* WatchSyncBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F78D2CA2D1CA4CA5F1656 /* WatchSyncBridge.swift */; };
+		32915A9E7F791F7917E531B1 /* WatchSyncBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24DBE734B8CBE04C1E5F14B /* WatchSyncBridge.swift */; };
+		4E2E90E78FE49E8AB4B33D2D /* AppFeatures in Frameworks */ = {isa = PBXBuildFile; productRef = 2A89E03BB2D40DDAECF76776 /* AppFeatures */; };
+		554696D15E5C91E27B8CF924 /* FastingLensWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B5A27836B14DC569C3C8D9E8 /* FastingLensWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		820EC65C3B8E2C0BEEF85D03 /* AppFeatures in Frameworks */ = {isa = PBXBuildFile; productRef = 713AAF743FDB41D051879427 /* AppFeatures */; };
+		8A75453583B51387D0A32F17 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6724BD899D6D498C2F3E504 /* HealthKitManager.swift */; };
+		A27CBBCDE2C105BA5F3053EC /* FastingLensWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A97279155956555FF50560C /* FastingLensWatchApp.swift */; };
+		A495505884EDDF7327CDB958 /* ReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB285155A9BE1CD1BA2CEA /* ReminderScheduler.swift */; };
+		A9A87D482BB79D01D2B59844 /* MealRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18C39D34F7FD1EDAF79D3A /* MealRecognitionService.swift */; };
+		AA11BB22CC33DD44EE55FF01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF00 /* Assets.xcassets */; };
+		B7071E107B02633942CD2FFB /* AssistantChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AB97498F03C4BC2C9C5017 /* AssistantChat.swift */; };
+		C05DAAB0EF308E5D5B13C5B2 /* FastingLens Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A47048022BBF89E5A1E6C547 /* FastingLens Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C948C784660BDBC603F77344 /* FastingLensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBBCF086633D099BF8DA0B0 /* FastingLensApp.swift */; };
+		CC73CA1D5452D49CEA7B8BA1 /* FastingLensWatchExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 91DF1246701AB7A8D9AFF143 /* FastingLensWatchExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D6E2478F4D988F2C8EE90203 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B57CE8A083E6407B7E63A5 /* AppState.swift */; };
+		DACAFF7A891E647BC634D1FA /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24456913FE71229B5DC02AC /* CameraPicker.swift */; };
+		WW0001000000000000000001 /* WatchComplications.swift in Sources */ = {isa = PBXBuildFile; fileRef = WW0001000000000000000002 /* WatchComplications.swift */; };
+		WW0001000000000000000003 /* AppFeatures in Frameworks */ = {isa = PBXBuildFile; productRef = WW0001000000000000000004 /* AppFeatures */; };
+		WW0001000000000000000005 /* FastingLensWatchWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = WW0001000000000000000006 /* FastingLensWatchWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		WICON00000000000000000002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = WICON00000000000000000001 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60A60099CD4C1EEF0E99D9C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B540BDC51F7B263AFA6CFC9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037DD98FAC2B3369CD0B2262;
+			remoteInfo = FastingLensWatchApp;
+		};
+		8294AE691FE3E86B3D6A39AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B540BDC51F7B263AFA6CFC9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8032830BFEAEB319FDA8EDE6;
+			remoteInfo = FastingLensWidget;
+		};
+		95DCB028CDE3E4B151D87424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B540BDC51F7B263AFA6CFC9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4B119FC567F822CA5F9BF0E;
+			remoteInfo = FastingLensWatchExtension;
+		};
+		WW0001000000000000000007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B540BDC51F7B263AFA6CFC9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = WW0001000000000000000008;
+			remoteInfo = FastingLensWatchWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8A74F54B218865A05E17CBE6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CC73CA1D5452D49CEA7B8BA1 /* FastingLensWatchExtension.appex in Embed Foundation Extensions */,
+				WW0001000000000000000005 /* FastingLensWatchWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C33D595F879ED4FF9D5C1D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				554696D15E5C91E27B8CF924 /* FastingLensWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9B9E881B1E86FB556B0EDE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C05DAAB0EF308E5D5B13C5B2 /* FastingLens Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A97279155956555FF50560C /* FastingLensWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingLensWatchApp.swift; sourceTree = "<group>"; };
+		24F9ACB4328C9FE1AD2BCFEF /* AppFeatures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppFeatures; sourceTree = SOURCE_ROOT; };
+		5C18C39D34F7FD1EDAF79D3A /* MealRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRecognitionService.swift; sourceTree = "<group>"; };
+		6A41E489F6B64CFF927E07B3 /* FastingLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastingLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		891CB3A85E4783003B0F76B7 /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
+		91DF1246701AB7A8D9AFF143 /* FastingLensWatchExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = FastingLensWatchExtension.appex; path = "FastingLens Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24DBE734B8CBE04C1E5F14B /* WatchSyncBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSyncBridge.swift; sourceTree = "<group>"; };
+		A47048022BBF89E5A1E6C547 /* FastingLens Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FastingLens Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA11BB22CC33DD44EE55FF00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B53FD982ACF681464C89E6B6 /* FastingTimerEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingTimerEngine.swift; sourceTree = "<group>"; };
+		B5A27836B14DC569C3C8D9E8 /* FastingLensWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.extensionkit-extension"; name = FastingLensWidget.appex; path = "FastingLens Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6724BD899D6D498C2F3E504 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HealthKitManager.swift; path = FastingLensApp/Sources/HealthKitManager.swift; sourceTree = SOURCE_ROOT; };
+		B87733E6F1D960232D7308E3 /* FastingLensWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingLensWidget.swift; sourceTree = "<group>"; };
+		BBBBCF086633D099BF8DA0B0 /* FastingLensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingLensApp.swift; sourceTree = "<group>"; };
+		C1B57CE8A083E6407B7E63A5 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		D8AB97498F03C4BC2C9C5017 /* AssistantChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantChat.swift; sourceTree = "<group>"; };
+		E24456913FE71229B5DC02AC /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		EDDB285155A9BE1CD1BA2CEA /* ReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderScheduler.swift; sourceTree = "<group>"; };
+		FE0F78D2CA2D1CA4CA5F1656 /* WatchSyncBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSyncBridge.swift; sourceTree = "<group>"; };
+		WW0001000000000000000002 /* WatchComplications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchComplications.swift; sourceTree = "<group>"; };
+		WW0001000000000000000006 /* FastingLensWatchWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = FastingLensWatchWidgets.appex; path = "FastingLens Watch Widgets.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		WICON00000000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5C0931C793A290B9EC7FB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820EC65C3B8E2C0BEEF85D03 /* AppFeatures in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85355C6BA56A64FCBF65D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2E90E78FE49E8AB4B33D2D /* AppFeatures in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C194D13399D5CBFDB94A2CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6AFA5EB43D0C209E26323A /* AppFeatures in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		WW000100000000000000000E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				WW0001000000000000000003 /* AppFeatures in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B96151754BAB5B55C0D9FE2 /* FastingLensWidget */ = {
+			isa = PBXGroup;
+			children = (
+				5B959C49205B3E3B5233AE1B /* Sources */,
+			);
+			path = FastingLensWidget;
+			sourceTree = "<group>";
+		};
+		18067146DF99B93F27C68584 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				24F9ACB4328C9FE1AD2BCFEF /* AppFeatures */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		20DBE1727471E30AF238CC20 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C1B57CE8A083E6407B7E63A5 /* AppState.swift */,
+				D8AB97498F03C4BC2C9C5017 /* AssistantChat.swift */,
+				E24456913FE71229B5DC02AC /* CameraPicker.swift */,
+				BBBBCF086633D099BF8DA0B0 /* FastingLensApp.swift */,
+				B53FD982ACF681464C89E6B6 /* FastingTimerEngine.swift */,
+				5C18C39D34F7FD1EDAF79D3A /* MealRecognitionService.swift */,
+				EDDB285155A9BE1CD1BA2CEA /* ReminderScheduler.swift */,
+				891CB3A85E4783003B0F76B7 /* Screens.swift */,
+				A24DBE734B8CBE04C1E5F14B /* WatchSyncBridge.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		44BBCD6AA41B6BEF9F456348 /* FastingLensWatchExtension */ = {
+			isa = PBXGroup;
+			children = (
+				49E9C50444A1EB000A263BFA /* Sources */,
+			);
+			path = FastingLensWatchExtension;
+			sourceTree = "<group>";
+		};
+		4669FD3F01AD13D9D495B4DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A41E489F6B64CFF927E07B3 /* FastingLens.app */,
+				A47048022BBF89E5A1E6C547 /* FastingLens Watch.app */,
+				91DF1246701AB7A8D9AFF143 /* FastingLensWatchExtension.appex */,
+				B5A27836B14DC569C3C8D9E8 /* FastingLensWidget.appex */,
+				WW0001000000000000000006 /* FastingLensWatchWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49E9C50444A1EB000A263BFA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1A97279155956555FF50560C /* FastingLensWatchApp.swift */,
+				FE0F78D2CA2D1CA4CA5F1656 /* WatchSyncBridge.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5B959C49205B3E3B5233AE1B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B87733E6F1D960232D7308E3 /* FastingLensWidget.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		93815692349819B2B2D3A446 /* FastingLensApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA11BB22CC33DD44EE55FF00 /* Assets.xcassets */,
+				20DBE1727471E30AF238CC20 /* Sources */,
+			);
+			path = FastingLensApp;
+			sourceTree = "<group>";
+		};
+		CB067215E8E94924A6B41ABE = {
+			isa = PBXGroup;
+			children = (
+				93815692349819B2B2D3A446 /* FastingLensApp */,
+				44BBCD6AA41B6BEF9F456348 /* FastingLensWatchExtension */,
+				WICON00000000000000000004 /* FastingLensWatchApp */,
+				WW000100000000000000000A /* FastingLensWatchWidgets */,
+				0B96151754BAB5B55C0D9FE2 /* FastingLensWidget */,
+				18067146DF99B93F27C68584 /* Packages */,
+				4669FD3F01AD13D9D495B4DA /* Products */,
+				B6724BD899D6D498C2F3E504 /* HealthKitManager.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		WW000100000000000000000A /* FastingLensWatchWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				WW000100000000000000000B /* Sources */,
+			);
+			path = FastingLensWatchWidgets;
+			sourceTree = "<group>";
+		};
+		WW000100000000000000000B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				WW0001000000000000000002 /* WatchComplications.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		WICON00000000000000000004 /* FastingLensWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				WICON00000000000000000001 /* Assets.xcassets */,
+			);
+			path = FastingLensWatchApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037DD98FAC2B3369CD0B2262 /* FastingLensWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1270FA9F9EC9260952F0F00B /* Build configuration list for PBXNativeTarget "FastingLensWatchApp" */;
+			buildPhases = (
+				WICON00000000000000000003 /* Resources */,
+				8A74F54B218865A05E17CBE6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8876BBA1F63BC49142A2F24A /* PBXTargetDependency */,
+				WW0001000000000000000009 /* PBXTargetDependency */,
+			);
+			name = FastingLensWatchApp;
+			packageProductDependencies = (
+			);
+			productName = FastingLensWatchApp;
+			productReference = A47048022BBF89E5A1E6C547 /* FastingLens Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8032830BFEAEB319FDA8EDE6 /* FastingLensWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91F537563C085C28A531172 /* Build configuration list for PBXNativeTarget "FastingLensWidget" */;
+			buildPhases = (
+				9C908D9B957E37E78D60D874 /* Sources */,
+				C194D13399D5CBFDB94A2CFD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastingLensWidget;
+			packageProductDependencies = (
+				6B1354128C32584F0B233F7C /* AppFeatures */,
+			);
+			productName = FastingLensWidget;
+			productReference = B5A27836B14DC569C3C8D9E8 /* FastingLensWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B4B119FC567F822CA5F9BF0E /* FastingLensWatchExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE1CFDF080BCC1DCB7935C4 /* Build configuration list for PBXNativeTarget "FastingLensWatchExtension" */;
+			buildPhases = (
+				828709300CE18C78A123C4E6 /* Sources */,
+				A85355C6BA56A64FCBF65D1C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastingLensWatchExtension;
+			packageProductDependencies = (
+				2A89E03BB2D40DDAECF76776 /* AppFeatures */,
+			);
+			productName = FastingLensWatchExtension;
+			productReference = 91DF1246701AB7A8D9AFF143 /* FastingLensWatchExtension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		BCC40B60CE8DAB3C05509697 /* FastingLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3969675A9F60B8BF6F3E67B0 /* Build configuration list for PBXNativeTarget "FastingLens" */;
+			buildPhases = (
+				AA11BB22CC33DD44EE55FF02 /* Resources */,
+				209110D4C8E971606F8A449A /* Sources */,
+				A5C0931C793A290B9EC7FB53 /* Frameworks */,
+				96C33D595F879ED4FF9D5C1D /* Embed Foundation Extensions */,
+				FE9B9E881B1E86FB556B0EDE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45918410B87CFCAD4B0A11D3 /* PBXTargetDependency */,
+				6120E814D336811CED7E554B /* PBXTargetDependency */,
+			);
+			name = FastingLens;
+			packageProductDependencies = (
+				713AAF743FDB41D051879427 /* AppFeatures */,
+			);
+			productName = FastingLens;
+			productReference = 6A41E489F6B64CFF927E07B3 /* FastingLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		WW0001000000000000000008 /* FastingLensWatchWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = WW000100000000000000000C /* Build configuration list for PBXNativeTarget "FastingLensWatchWidgets" */;
+			buildPhases = (
+				WW000100000000000000000D /* Sources */,
+				WW000100000000000000000E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastingLensWatchWidgets;
+			packageProductDependencies = (
+				WW0001000000000000000004 /* AppFeatures */,
+			);
+			productName = FastingLensWatchWidgets;
+			productReference = WW0001000000000000000006 /* FastingLensWatchWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B540BDC51F7B263AFA6CFC9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					037DD98FAC2B3369CD0B2262 = {
+						DevelopmentTeam = 9YQUDL87W3;
+						ProvisioningStyle = Automatic;
+					};
+					8032830BFEAEB319FDA8EDE6 = {
+						DevelopmentTeam = 9YQUDL87W3;
+						ProvisioningStyle = Automatic;
+					};
+					B4B119FC567F822CA5F9BF0E = {
+						DevelopmentTeam = 9YQUDL87W3;
+						ProvisioningStyle = Automatic;
+					};
+					BCC40B60CE8DAB3C05509697 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2CB6AA78E78FDD180E1C6D94 /* Build configuration list for PBXProject "FastingLens" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CB067215E8E94924A6B41ABE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AA84C3E5C0423B7129C0E618 /* XCLocalSwiftPackageReference "AppFeatures" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4669FD3F01AD13D9D495B4DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC40B60CE8DAB3C05509697 /* FastingLens */,
+				037DD98FAC2B3369CD0B2262 /* FastingLensWatchApp */,
+				B4B119FC567F822CA5F9BF0E /* FastingLensWatchExtension */,
+				8032830BFEAEB319FDA8EDE6 /* FastingLensWidget */,
+				WW0001000000000000000008 /* FastingLensWatchWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA11BB22CC33DD44EE55FF02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA11BB22CC33DD44EE55FF01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		WICON00000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				WICON00000000000000000002 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209110D4C8E971606F8A449A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E2478F4D988F2C8EE90203 /* AppState.swift in Sources */,
+				B7071E107B02633942CD2FFB /* AssistantChat.swift in Sources */,
+				DACAFF7A891E647BC634D1FA /* CameraPicker.swift in Sources */,
+				C948C784660BDBC603F77344 /* FastingLensApp.swift in Sources */,
+				056AC5E28B4F612A9C878A97 /* FastingTimerEngine.swift in Sources */,
+				A9A87D482BB79D01D2B59844 /* MealRecognitionService.swift in Sources */,
+				A495505884EDDF7327CDB958 /* ReminderScheduler.swift in Sources */,
+				0279B5CB222F70BBB4668A3A /* Screens.swift in Sources */,
+				32915A9E7F791F7917E531B1 /* WatchSyncBridge.swift in Sources */,
+				8A75453583B51387D0A32F17 /* HealthKitManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828709300CE18C78A123C4E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27CBBCDE2C105BA5F3053EC /* FastingLensWatchApp.swift in Sources */,
+				26C00120302D2BFB80EDFDD4 /* WatchSyncBridge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C908D9B957E37E78D60D874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AAA16D0BA8CE5710468F76 /* FastingLensWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		WW000100000000000000000D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				WW0001000000000000000001 /* WatchComplications.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45918410B87CFCAD4B0A11D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 037DD98FAC2B3369CD0B2262 /* FastingLensWatchApp */;
+			targetProxy = 60A60099CD4C1EEF0E99D9C0 /* PBXContainerItemProxy */;
+		};
+		6120E814D336811CED7E554B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8032830BFEAEB319FDA8EDE6 /* FastingLensWidget */;
+			targetProxy = 8294AE691FE3E86B3D6A39AB /* PBXContainerItemProxy */;
+		};
+		8876BBA1F63BC49142A2F24A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4B119FC567F822CA5F9BF0E /* FastingLensWatchExtension */;
+			targetProxy = 95DCB028CDE3E4B151D87424 /* PBXContainerItemProxy */;
+		};
+		WW0001000000000000000009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = WW0001000000000000000008 /* FastingLensWatchWidgets */;
+			targetProxy = WW0001000000000000000007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01BC97D813FB1E30467E6ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = FastingLensWatchExtension/FastingLensWatchExtension.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastingLensWatchExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipos.fastinglens.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "FastingLens Watch Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		0460C7F2C9AB4FF62CF543A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FastingLensApp/FastingLens.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 87NDQ6Q8C7;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastingLensApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipos.fastinglens;
+				PRODUCT_NAME = FastingLens;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40816437F7AEAC05356EC399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastingLensWatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipos.fastinglens.watchkitapp;
+				PRODUCT_NAME = "FastingLens Watch";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		40E623C5B5AA52B162776E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FastingLensWidget/FastingLensWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastingLensWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipos.fastinglens.widget;
+				PRODUCT_NAME = "FastingLens Widget";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89FD05AE411F4737DD0957EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FastingLensApp/FastingLens.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 87NDQ6Q8C7;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastingLensApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipos.fastinglens;
+				PRODUCT_NAME = FastingLens;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1576BBAA3A41304CDC37AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 87NDQ6Q8C7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		AE7E0B7A16998FD2CDE95EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastingLensWatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipos.fastinglens.watchkitapp;
+				PRODUCT_NAME = "FastingLens Watch";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		AEFEE8BB864F2B8207109BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FastingLensWidget/FastingLensWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastingLensWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipos.fastinglens.widget;
+				PRODUCT_NAME = "FastingLens Widget";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0F0C8E5A504C8458302D0C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = FastingLensWatchExtension/FastingLensWatchExtension.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastingLensWatchExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipos.fastinglens.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "FastingLens Watch Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		BA3B22B2670F49E25BD9CAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 87NDQ6Q8C7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		WW0001000000000000001001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FastingLensWatchWidgets/FastingLensWatchWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastingLensWatchWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipos.fastinglens.watchkitapp.widgets;
+				PRODUCT_NAME = "FastingLens Watch Widgets";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		WW0001000000000000001002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FastingLensWatchWidgets/FastingLensWatchWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FastingLensWatchWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipos.fastinglens.watchkitapp.widgets;
+				PRODUCT_NAME = "FastingLens Watch Widgets";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1270FA9F9EC9260952F0F00B /* Build configuration list for PBXNativeTarget "FastingLensWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40816437F7AEAC05356EC399 /* Debug */,
+				AE7E0B7A16998FD2CDE95EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2CB6AA78E78FDD180E1C6D94 /* Build configuration list for PBXProject "FastingLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3B22B2670F49E25BD9CAE5 /* Debug */,
+				A1576BBAA3A41304CDC37AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3969675A9F60B8BF6F3E67B0 /* Build configuration list for PBXNativeTarget "FastingLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0460C7F2C9AB4FF62CF543A4 /* Debug */,
+				89FD05AE411F4737DD0957EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DCE1CFDF080BCC1DCB7935C4 /* Build configuration list for PBXNativeTarget "FastingLensWatchExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BC97D813FB1E30467E6ADA /* Debug */,
+				B0F0C8E5A504C8458302D0C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F91F537563C085C28A531172 /* Build configuration list for PBXNativeTarget "FastingLensWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E623C5B5AA52B162776E1D /* Debug */,
+				AEFEE8BB864F2B8207109BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		WW000100000000000000000C /* Build configuration list for PBXNativeTarget "FastingLensWatchWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				WW0001000000000000001001 /* Debug */,
+				WW0001000000000000001002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		AA84C3E5C0423B7129C0E618 /* XCLocalSwiftPackageReference "AppFeatures" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = AppFeatures;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A89E03BB2D40DDAECF76776 /* AppFeatures */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppFeatures;
+		};
+		6B1354128C32584F0B233F7C /* AppFeatures */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppFeatures;
+		};
+		713AAF743FDB41D051879427 /* AppFeatures */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppFeatures;
+		};
+		WW0001000000000000000004 /* AppFeatures */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppFeatures;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B540BDC51F7B263AFA6CFC9D /* Project object */;
+}

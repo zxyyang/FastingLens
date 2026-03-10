@@ -1,0 +1,111 @@
+name: FastingLens
+options:
+  bundleIdPrefix: com.flipos
+  createIntermediateGroups: true
+configs:
+  Debug: debug
+  Release: release
+settings:
+  base:
+    SWIFT_VERSION: 6.0
+    MARKETING_VERSION: 0.1.0
+    CURRENT_PROJECT_VERSION: 1
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: 9YQUDL87W3
+packages:
+  AppFeatures:
+    path: ./AppFeatures
+targets:
+  FastingLens:
+    type: application
+    platform: iOS
+    deploymentTarget: "18.0"
+    sources:
+      - path: FastingLensApp/Sources
+    info:
+      path: FastingLensApp/Info.plist
+      properties:
+        CFBundleDisplayName: 断食镜
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.flipos.fastinglens
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: FastingLensApp/Info.plist
+        PRODUCT_NAME: FastingLens
+        CODE_SIGN_ENTITLEMENTS: FastingLensApp/FastingLens.entitlements
+    dependencies:
+      - target: FastingLensWatchApp
+      - target: FastingLensWidget
+      - package: AppFeatures
+        product: AppFeatures
+
+  FastingLensWatchApp:
+    type: application.watchapp2
+    platform: watchOS
+    deploymentTarget: "11.0"
+    info:
+      path: FastingLensWatchApp/Info.plist
+      properties:
+        CFBundleDisplayName: 断食镜手表
+        WKCompanionAppBundleIdentifier: com.flipos.fastinglens
+        WKWatchKitApp: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.flipos.fastinglens.watchkitapp
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: FastingLensWatchApp/Info.plist
+        PRODUCT_NAME: FastingLens Watch
+    dependencies:
+      - target: FastingLensWatchExtension
+
+  FastingLensWatchExtension:
+    type: watchkit2-extension
+    platform: watchOS
+    deploymentTarget: "11.0"
+    sources:
+      - path: FastingLensWatchExtension/Sources
+    info:
+      path: FastingLensWatchExtension/Info.plist
+      properties:
+        CFBundleDisplayName: 断食镜手表扩展
+        NSExtension:
+          NSExtensionAttributes:
+            WKAppBundleIdentifier: com.flipos.fastinglens.watchkitapp
+          NSExtensionPointIdentifier: com.apple.watchkit
+        WKApplication: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.flipos.fastinglens.watchkitapp.watchkitextension
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: FastingLensWatchExtension/Info.plist
+        PRODUCT_NAME: FastingLens Watch Extension
+        CODE_SIGN_ENTITLEMENTS: FastingLensWatchExtension/FastingLensWatchExtension.entitlements
+    dependencies:
+      - package: AppFeatures
+        product: AppFeatures
+
+  FastingLensWidget:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "18.0"
+    sources:
+      - path: FastingLensWidget/Sources
+    info:
+      path: FastingLensWidget/Info.plist
+      properties:
+        CFBundleDisplayName: 断食镜组件
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.flipos.fastinglens.widget
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: FastingLensWidget/Info.plist
+        PRODUCT_NAME: FastingLens Widget
+        CODE_SIGN_ENTITLEMENTS: FastingLensWidget/FastingLensWidget.entitlements
+    dependencies:
+      - package: AppFeatures
+        product: AppFeatures

@@ -1,0 +1,30 @@
+{
+  "name": "My Food Vision",
+  "isEnabled": true,
+  "endpoint": "https://example.com/v1/chat/completions",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer REPLACE_ME",
+    "Content-Type": "application/json"
+  },
+  "request": {
+    "model": "food-vision-1",
+    "temperature": 0.2,
+    "systemPrompt": "You are a nutrition assistant. Identify foods from the image and estimate calories. Return strict JSON.",
+    "userTemplate": "Analyze this meal image and return only JSON using the agreed schema.",
+    "imageFieldMode": "base64",
+    "bodyTemplate": "{\n  \"model\": {{model}},\n  \"temperature\": {{temperature}},\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": {{systemPrompt}}\n    },\n    {\n      \"role\": \"user\",\n      \"content\": [\n        {\n          \"type\": \"text\",\n          \"text\": {{userPrompt}}\n        },\n        {\n          \"type\": \"image_url\",\n          \"image_url\": {\n            \"url\": {{imageDataURL}}\n          }\n        }\n      ]\n    }\n  ],\n  \"response_format\": {\n    \"type\": \"json_object\"\n  }\n}"
+  },
+  "response": {
+    "format": "json",
+    "rootPath": "choices.0.message.content",
+    "schemaVersion": "meal-v1"
+  },
+  "behavior": {
+    "timeoutSeconds": 30,
+    "requiresManualConfirmation": true,
+    "minConfidenceToAutofill": 0.8,
+    "saveRequestLog": true,
+    "saveResponseLog": true
+  }
+}

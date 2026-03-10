@@ -1,0 +1,56 @@
+{
+  "" : {
+    "const-values" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/AppFeatures-primary.swiftconstvalues",
+    "dependencies" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/AppFeatures-primary.d",
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/AppFeatures-primary.dia",
+    "emit-module-dependencies" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/AppFeatures-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/AppFeatures-primary-emit-module.dia",
+    "pch" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/AppFeatures-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/AppFeatures-primary.swiftdeps"
+  },
+  "/Users/flipos/OtherProject/FastingLens/AppFeatures/Sources/AppFeatures/AISettingsDraft.swift" : {
+    "index-unit-output-path" : "/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/AISettingsDraft.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/AISettingsDraft.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/AISettingsDraft.o"
+  },
+  "/Users/flipos/OtherProject/FastingLens/AppFeatures/Sources/AppFeatures/AISettingsView.swift" : {
+    "index-unit-output-path" : "/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/AISettingsView.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/AISettingsView.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/AISettingsView.o"
+  },
+  "/Users/flipos/OtherProject/FastingLens/AppFeatures/Sources/AppFeatures/DashboardView.swift" : {
+    "index-unit-output-path" : "/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/DashboardView.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/DashboardView.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/DashboardView.o"
+  },
+  "/Users/flipos/OtherProject/FastingLens/AppFeatures/Sources/AppFeatures/DashboardViewModel.swift" : {
+    "index-unit-output-path" : "/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/DashboardViewModel.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/DashboardViewModel.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/DashboardViewModel.o"
+  },
+  "/Users/flipos/OtherProject/FastingLens/AppFeatures/Sources/AppFeatures/FastingLensTheme.swift" : {
+    "index-unit-output-path" : "/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/FastingLensTheme.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/FastingLensTheme.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/FastingLensTheme.o"
+  },
+  "/Users/flipos/OtherProject/FastingLens/AppFeatures/Sources/AppFeatures/ProviderConfig.swift" : {
+    "index-unit-output-path" : "/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/ProviderConfig.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/ProviderConfig.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/ProviderConfig.o"
+  },
+  "/Users/flipos/OtherProject/FastingLens/AppFeatures/Sources/AppFeatures/SharedSnapshotStore.swift" : {
+    "index-unit-output-path" : "/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/SharedSnapshotStore.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/SharedSnapshotStore.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/SharedSnapshotStore.o"
+  },
+  "/Users/flipos/OtherProject/FastingLens/AppFeatures/Sources/AppFeatures/WatchCommand.swift" : {
+    "index-unit-output-path" : "/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/WatchCommand.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/WatchCommand.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/WatchCommand.o"
+  },
+  "/Users/flipos/OtherProject/FastingLens/AppFeatures/Sources/AppFeatures/WatchStatusView.swift" : {
+    "index-unit-output-path" : "/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/WatchStatusView.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/WatchStatusView.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/AppFeatures/build/AppFeatures.build/Release-iphoneos/AppFeatures.build/Objects-normal/arm64/WatchStatusView.o"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/FastingLensWatchExtension-primary.dia",
+    "emit-module-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/FastingLensWatchExtension-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/FastingLensWatchExtension-primary-emit-module.dia",
+    "pch" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/FastingLensWatchExtension-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/FastingLensWatchExtension-primary.swiftdeps"
+  },
+  "/Users/flipos/OtherProject/FastingLens/FastingLensWatchExtension/Sources/FastingLensWatchApp.swift" : {
+    "const-values" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/FastingLensWatchApp.swiftconstvalues",
+    "dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/FastingLensWatchApp.d",
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/FastingLensWatchApp.dia",
+    "index-unit-output-path" : "/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/FastingLensWatchApp.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/FastingLensWatchApp.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/FastingLensWatchApp.o",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/FastingLensWatchApp.swiftdeps",
+    "swiftmodule" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/FastingLensWatchApp~partial.swiftmodule"
+  },
+  "/Users/flipos/OtherProject/FastingLens/FastingLensWatchExtension/Sources/WatchSyncBridge.swift" : {
+    "const-values" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/WatchSyncBridge.swiftconstvalues",
+    "dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/WatchSyncBridge.d",
+    "diagnostics" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/WatchSyncBridge.dia",
+    "index-unit-output-path" : "/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/WatchSyncBridge.o",
+    "llvm-bc" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/WatchSyncBridge.bc",
+    "object" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/WatchSyncBridge.o",
+    "swift-dependencies" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/WatchSyncBridge.swiftdeps",
+    "swiftmodule" : "/Users/flipos/OtherProject/FastingLens/build/FastingLens.build/Debug-watchos/FastingLensWatchExtension.build/Objects-normal/arm64_32/WatchSyncBridge~partial.swiftmodule"
+  }
+}
